@@ -4,3 +4,7 @@ redis
 peewee
 markdown
 pygments
+
+http://levi.cg.am/?p=2887
+sudo apt-get install redis-server
+sudo /usr/local/bin/redis-server redis.conf

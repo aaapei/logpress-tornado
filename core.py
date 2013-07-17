@@ -27,6 +27,7 @@ jinja_environment = Environment(
 			auto_reload = settings['debug'],
 			autoescape = False)
 
+#db = Database({'db':settings['db_name'],'engine':settings['db_engine'],'user':'test'})
 db = Database({'db':settings['db_name'],'engine':settings['db_engine']})
 
 smtp_server = EmailBackend(

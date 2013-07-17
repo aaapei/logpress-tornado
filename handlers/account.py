@@ -26,7 +26,8 @@ class LoginHandler(BaseHandler):
 				else:
 					self.flash('UserName or password invidate!')
 			except Exception,e:
-				self.flash('%s not Found!' %username)
+				print e
+                self.flash('%s not Found!' %username)
 		self.render('admin/login.html')
 		return
 
